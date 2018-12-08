@@ -1,0 +1,35 @@
+{
+  "name": "one-picture",
+  "version": "0.1.0",
+  "main": "main.js",
+  "homepage": "./",
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "electron-start": "electron .",
+    "electron-start-dev": "electron . --debug"
+  },
+  "dependencies": {
+    "ant-design-pro": "^2.1.1",
+    "antd": "^3.6.2",
+    "classnames": "^2.2.6",
+    "devtron": "^1.4.0",
+    "electron": "^3.0.9",
+    "lodash": "^4.17.10",
+    "osenv": "^0.1.5",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.4",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "superagent": "^3.8.3"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.7.0",
+    "electron-renderer-react-scripts-target": "^1.1.1",
+    "react-app-rewire-less": "^2.1.1",
+    "react-app-rewired": "^1.5.2"
+  }
+}
