@@ -20,3 +20,4 @@
 
 - https://sspai.com/post/42310
 - https://github.com/Molunerfinn/PicGo
+- SQLite 数据库： https://github.com/mapbox/node-sqlite3
