@@ -14,3 +14,9 @@
 - 配置
   - 标签管理
 - 关于
+
+
+## 参考
+
+- https://sspai.com/post/42310
+- https://github.com/Molunerfinn/PicGo

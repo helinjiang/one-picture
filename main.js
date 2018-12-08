@@ -24,7 +24,8 @@ function initialize() {
             width: 1080,
             minWidth: 680,
             height: 840,
-            title: app.getName()
+            title: app.getName(),
+            webPreferences: { webSecurity: false }//加上这个就可以获取到了本地的图片
         };
 
         // if (process.platform === 'linux') {

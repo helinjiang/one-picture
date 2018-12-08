@@ -12,16 +12,31 @@ const { Description } = DescriptionList;
 class Workspace extends Component {
     constructor(props, context) {
         super(props, context);
+
+        this.state = {
+            showImg: null
+        };
     }
 
     componentDidMount() {
+        const nativeImage = window.require('electron').nativeImage;
 
+        let image = nativeImage.createFromPath('/test.jpg');
+        console.log(image);
+
+        this.setState({
+            showImg: image.toDataURL()
+        });
     }
 
     render() {
+        const { showImg } = this.state;
         return (
             <div className="page-workspace-dashboard">
                 <p>local image</p>
+                {
+                    showImg ? <img src={showImg} style={{ width: 200, height: 200 }} /> : null
+                }
             </div>
         );
     }
