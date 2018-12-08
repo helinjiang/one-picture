@@ -21,7 +21,8 @@ class Workspace extends Component {
     componentDidMount() {
         const nativeImage = window.require('electron').nativeImage;
 
-        let image = nativeImage.createFromPath('/test.jpg');
+        // let image = nativeImage.createFromPath('D:\\test.jpg');
+        // let image = nativeImage.createFromPath('/test.jpg');
         console.log(image);
 
         this.setState({
